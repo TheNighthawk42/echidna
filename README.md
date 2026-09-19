@@ -23,7 +23,7 @@ Echidna — a full computing stack designed from one specification. Custom CPU, 
 ## Projects Included
 
 <div align="center">
-<img src="assets/shema_echidna.png" alt="Echidna Project" width="500"/>
+<img src="assets/shema_echidna.png" alt="Echidna Project" width="100%"/>
 </div>
 
 ## Repo Structure
