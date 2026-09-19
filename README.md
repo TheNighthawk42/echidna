@@ -4,11 +4,11 @@
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/3bb5085d-a066-4576-9eae-e3724ada1cc5" alt="Echidna Project Logo" width="500"/>
+<img src="assets/Screenshot from 2026-09-19 13-56-18.png" alt="Echidna Protocol, Echidna OS, Echidna Architecture" width="100%"/>
 
 <br/><br/>
 
-<img src="https://github.com/user-attachments/assets/632812c1-484b-4873-a0f1-6680bb6900b8" alt="Echidna Animation Banner" width="100%"/>
+<img src="assets/echidna_gif_.gif" alt="Echidna banner" width="100%"/>
 
 <br/>
 
@@ -23,12 +23,12 @@ Echidna — a full computing stack designed from one specification. Custom CPU, 
 ## Projects Included
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/782eddda-aba6-4bf3-aa31-1a66b331188a" alt="Echidna Protocol, Echidna OS, Echidna Architecture" width="100%"/>
+<img src="assets/shema_echidna.png" alt="Echidna Project" width="500"/>
 </div>
 
 ## Repo Structure
 
-```text
+```
 ECHIDNA/
 ├── norms/          # Specifications & architecture docs
 ├── cpu/            # Custom CPU / emulator / ISA implementation
@@ -40,3 +40,12 @@ ECHIDNA/
 ├── .gitignore      # Ignores build artifacts (.o, binaries, build/)
 ├── LICENSE         # Open-source license (MIT/GPL)
 └── README.md       # The main landing page
+```
+
+## The Holiest Graph Ever
+
+This graph describes the project structure — starting from the center and expanding outward to the rims, until the circle is fully complete, project by project.
+
+<div align="center">
+<img src="assets/succession.png" alt="The Holiest Graph Ever" width="100%"/>
+</div>
