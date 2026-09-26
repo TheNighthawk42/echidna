@@ -23,7 +23,7 @@ Echidna — a full computing stack designed from one specification. Custom CPU, 
 ## Projects Included
 
 <div align="center">
-<img src="assets/shema_echidna.png" alt="Echidna Project" width="100%"/>
+<img src="assets/shcema_echidna.png" alt="Echidna Project" width="100%"/>
 </div>
 
 ## Repo Structure
@@ -48,4 +48,10 @@ This graph describes the project structure — starting from the center and expa
 
 <div align="center">
 <img src="assets/succession.png" alt="The Holiest Graph Ever" width="100%"/>
+</div>
+
+This graph describes the project structure with more details
+
+<div align="center">
+<img src="assets/overview_holliest_graph_ever_.png" alt="The Holiest Graph Ever" width="100%"/>
 </div>
