@@ -37,6 +37,7 @@ ECHIDNA/
 ├── toolchain/      # Assembler, linker, tools
 ├── net/            # Networking protocol stack
 ├── integration/    # System tests & full-stack integration
+├── assets/         # README.md file assets 
 ├── .gitignore      # Ignores build artifacts (.o, binaries, build/)
 ├── LICENSE         # Open-source license (MIT/GPL)
 └── README.md       # The main landing page
