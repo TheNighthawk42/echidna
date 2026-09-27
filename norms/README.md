@@ -20,7 +20,7 @@
 
 norms/ — The foundational engineering baseline and architectural specifications governing the platform. Establishes core standards, design philosophy, and system-level interface specifications.
 
-## Projects Included
+## Headlines
 
 <div align="center">
 <img src="assets_norms/NOMS_GIF_ECHIDNA.png" alt="Echidna Project" width="100%"/>
