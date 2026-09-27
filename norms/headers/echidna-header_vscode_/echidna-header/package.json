@@ -1,0 +1,67 @@
+{
+  "name": "echidna-header",
+  "displayName": "Echidna Header",
+  "description": "Auto-generates and maintains the Echidna project header block on every file — project name, branch, login, and created/updated timestamps.",
+  "version": "0.1.0",
+  "publisher": "echidna",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "echidnaHeader.insertHeader",
+        "title": "Echidna: Insert Header"
+      },
+      {
+        "command": "echidnaHeader.updateHeader",
+        "title": "Echidna: Update Header Timestamp"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "echidnaHeader.insertHeader",
+        "key": "ctrl+h",
+        "mac": "cmd+h",
+        "when": "editorTextFocus"
+      }
+    ],
+    "configuration": {
+      "title": "Echidna Header",
+      "properties": {
+        "echidnaHeader.login": {
+          "type": "string",
+          "default": "the_nighthawk",
+          "description": "Login name shown in the header block."
+        },
+        "echidnaHeader.projectName": {
+          "type": "string",
+          "default": "",
+          "description": "Project name shown in the header. Leave empty to use the workspace folder name."
+        },
+        "echidnaHeader.autoInsertOnCreate": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically insert a header when a new file is created."
+        },
+        "echidnaHeader.autoUpdateOnSave": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically refresh the 'updated' timestamp on save."
+        },
+        "echidnaHeader.width": {
+          "type": "number",
+          "default": 100,
+          "description": "Total character width of the header block."
+        }
+      }
+    }
+  },
+  "scripts": {},
+  "devDependencies": {}
+}
